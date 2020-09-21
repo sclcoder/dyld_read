@@ -121,8 +121,11 @@ static void rebaseDyld(const dyld3::MachOLoaded* dyldMH)
 //  In dyld we have to do this manually.
 //
 
-/**
 
+/// 分析dyld的入口
+
+/**
+ 
 dyldbootstrap::start()函数中做了很多dyld初始化相关的工作，包括：
 
 rebaseDyld() dyld重定位。

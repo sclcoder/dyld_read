@@ -6225,6 +6225,8 @@ static ClosureMode getPlatformDefaultClosureMode() {
 // Returns address of main() in target program which __dyld_start jumps to
 //
 
+
+// 分析dyld的主要流程
 /**
  dyld::_main()是整个App启动的关键函数，此函数里面做了很多事情
  
